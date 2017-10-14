@@ -1,0 +1,56 @@
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+header{
+	margin-top: 50px;
+	align-items: baseline;
+}
+
+header div{
+width: 50%;
+float: left;
+}
+
+header::after{
+	content: "";
+	display: table;
+	clear:both;
+}
+
+header img{
+width: 100%
+}
+
+header img{
+	padding-left:50px;
+}
+
+
+
+nav{
+width: 50%;
+float: right;
+
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+	margin-right: 50px;
+
+}
+
+ul li{
+	display: inline-block;
+}
+
+.nav-link{
+	padding: 10px;
+}
